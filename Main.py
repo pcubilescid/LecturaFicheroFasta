@@ -1,3 +1,4 @@
+import sys
 def readFasta(fasta):
     sequence = ''
     with open(fasta, 'r') as f:
@@ -6,6 +7,6 @@ def readFasta(fasta):
                 sequence += line
     return sequence
 
-sequence = readFasta('pdb_seq.fasta')
+sequence = readFasta(sys.argv[1])
 
 print (sequence)

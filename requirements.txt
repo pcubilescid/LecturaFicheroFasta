@@ -1,3 +1,3 @@
 LecturaFicherosFasta
-pip==10.0.1
+pip==21.1
 setuptools==39.1.0
